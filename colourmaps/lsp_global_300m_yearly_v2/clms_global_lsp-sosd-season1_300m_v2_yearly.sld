@@ -26,6 +26,7 @@
               <ColorMapEntry color="#BFFF00" quantity="182" label="Jul selected year" />
               <ColorMapEntry color="#40FF00" quantity="213" label="Aug selected year" />
               <ColorMapEntry color="#00DC40" quantity="244" label="Sep selected year" />
+            </ColorMap>
           </RasterSymbolizer>
         </Rule>
       </FeatureTypeStyle>
