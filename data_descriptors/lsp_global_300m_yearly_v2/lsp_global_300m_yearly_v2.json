@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.2",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v2/",
   "browserName": "LSP 300m Yearly V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters.",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2014",
-    "end": "present",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/tree/main/thumbnails/lsp_global_300m_yearly_v2"
+    "end": "present"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "yearly",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/tree/main/thumbnails/lsp_global_300m_yearly_v2",
   "layers": [
     {
       "fileName": "LSP300-TPROD-S1",
@@ -20,6 +22,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-tprod-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-tprod-season1_global_300m_yearly_v2.png",
       "units": "[m². day/m²]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -30,6 +34,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-tprod-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-tprod-season2_global_300m_yearly_v2.png",
       "units": "[m².day/m²]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -37,9 +43,11 @@
       "layerBrowserName": "Seasonal Productivity - Season 1",
       "shortDescription": "Growing season integral computed as the time-integrated Plant Phenology Index values between the dates of the season start and end minus their base level value.",
       "longDescription": "Growing season integral computed as the time-integrated Plant Phenology Index values between the dates of the start and end of the first growing season minus their base level value. Expressed in [m².day/m²].",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sprod-season1_300m_v2_yearly.sld ",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sprod-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sprod-season1_global_300m_yearly_v2.png",
       "units": "[m².day/m²]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -47,9 +55,11 @@
       "layerBrowserName": "Seasonal Productivity - Season 2",
       "shortDescription": "Growing season integral computed as the time-integrated Plant Phenology Index values between the dates of the season start and end minus their base level value.",
       "longDescription": "Growing season integral computed as the time-integrated Plant Phenology Index values between the dates of the start and end of the second growing season minus their base level value. Expressed in [m².day/m²].",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sprod-season2_300m_v2_yearly.sld ",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sprod-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sprod-season2_global_300m_yearly_v2.png",
       "units": "[m².day/m²]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -60,6 +70,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sosd-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sosd-season1_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -70,6 +82,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sosd-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sosd-season2_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -80,6 +94,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-eosd-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-eosd-season1_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -90,6 +106,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-eosd-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-eosd-season2_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -100,6 +118,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-maxd-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-maxd-season1_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -110,6 +130,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-maxd-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-maxd-season2_global_300m_yearly_v2.png",
       "units": "[Day-Of-Year]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -120,6 +142,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sosv-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sosv-season1_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -130,6 +154,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-sosv-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-sosv-season2_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -140,6 +166,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-eosv-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-eosv-season1_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -150,6 +178,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-eosv-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-eosv-season2_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -160,6 +190,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-minv-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-minv-season1_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -170,6 +202,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-minv-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-minv-season2_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -180,6 +214,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-maxv-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-maxv-season1_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -190,6 +226,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-maxv-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-maxv-season2_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -200,6 +238,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-ampl-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-ampl-season1_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -210,6 +250,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-ampl-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-ampl-season2_global_300m_yearly_v2.png",
       "units": "[m² / m²]",
+      "scale": "0.0001",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -220,6 +262,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-length-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-length-season1_global_300m_yearly_v2.png",
       "units": "[days]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -230,6 +274,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-length-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-length-season2_global_300m_yearly_v2.png",
       "units": "[days]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -240,6 +286,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-lslope-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-lslope-season1_global_300m_yearly_v2.png",
       "units": "[m² / m² /day]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -250,6 +298,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-lslope-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-lslope-season2_global_300m_yearly_v2.png",
       "units": "[m² / m² /day]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -260,6 +310,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-rslope-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-rslope-season1_global_300m_yearly_v2.png",
       "units": "[m² / m² /day]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -270,6 +322,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-rslope-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-rslope-season2_global_300m_yearly_v2.png",
       "units": "[m² / m² /day]",
+      "scale": "1",
+      "offSet": "0",
       "display": 1
     },
     {
@@ -280,6 +334,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-qa-season1_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-qa-season1_global_300m_yearly_v2.png",
       "units": "",
+      "scale": "1",
+      "offSet": "0",
       "display": 0
     },
     {
@@ -290,6 +346,8 @@
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v2/clms_global_lsp-qa-season2_300m_v2_yearly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lsp_global_300m_yearly_v2/lsp-qa-season2_global_300m_yearly_v2.png",
       "units": "",
+      "scale": "1",
+      "offSet": "0",
       "display": 0
     }
   ]

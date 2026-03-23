@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "0.0.2",
+  "eodataPath": "",
+  "browserName": "",
+  "browserSearchPath": "",
+  "collectionDescription": "",
+  "linkToCLMS": "",
+  "spatialCoverage": "",
+  "temporalExtent": {
+    "start": "",
+    "end": ""},
+  "thumbnailLink": "",
+  "layers": [
+    {
+      "fileName": "",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[unit]",
+      "display": 1
+    }
+  ]
+}
